@@ -32,5 +32,3 @@ spec:
             limits:
               memory: "64Mi"
               cpu: "50m"
-          ports:
-            - containerPort: 8811
