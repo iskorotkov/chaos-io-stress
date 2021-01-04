@@ -14,6 +14,7 @@ metadata:
     # Annotation for Litmus
     litmuschaos.io/chaos: "true"
 spec:
+  replicas: 3
   selector:
     matchLabels:
       app: io-stress
