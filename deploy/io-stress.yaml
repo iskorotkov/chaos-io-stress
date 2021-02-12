@@ -1,13 +1,7 @@
-apiVersion: v1
-kind: Namespace
-metadata:
-  name: chaos-app
----
 apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: io-stress
-  namespace: chaos-app
   labels:
     app: io-stress
   annotations:
